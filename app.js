@@ -2,7 +2,7 @@
 function nameGenerator() {
     return {
       // Array of 10 names
-      names: ["Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Helen", "Irene", "Jack"],
+      names: ["aaron", "jason", "jayden", "ethan", "kayla", "kite", "thomas", "sam", "julie", "frank", ],
       // Variable to store the current random name
       randomName: '',
       // Function to generate a random index and update the randomName property
