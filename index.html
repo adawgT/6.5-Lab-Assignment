@@ -11,12 +11,11 @@
   <div x-data="nameGenerator()">
     <!-- Button that triggers the random name generation -->
     <button @click="generateRandomName()">Get Random Name</button>
-    <!-- The h1 element displays the randomly selected name -->
-    <h1 x-text="randomName"></h1>
+    <!-- The h1 element displays the randomly selected name and shows an alert when clicked -->
+    <h1 x-text="randomName" @click="showAlert()"></h1>
   </div>
 
   <!-- Link to external JavaScript file -->
   <script src="assets/js/app.js"></script>
 </body>
 </html>
-

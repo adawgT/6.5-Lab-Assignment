@@ -9,6 +9,10 @@ function nameGenerator() {
       generateRandomName() {
         const index = Math.floor(Math.random() * this.names.length);
         this.randomName = this.names[index];
+      },
+      // Function to display an alert with the current random name when the name is clicked
+      showAlert() {
+        alert(this.randomName);
       }
     }
   }
