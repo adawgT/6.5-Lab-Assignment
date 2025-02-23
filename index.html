@@ -3,19 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Random Name Generator</title>
-  <!-- Include Alpine.js from CDN in the head with defer for proper load order -->
   <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 </head>
 <body>
-  <!-- Alpine component: initializes our name generator -->
   <div x-data="nameGenerator()">
-    <!-- Button that triggers the random name generation -->
     <button @click="generateRandomName()">Get Random Name</button>
-    <!-- The h1 element displays the randomly selected name and shows an alert when clicked -->
     <h1 x-text="randomName" @click="showAlert()"></h1>
   </div>
 
-  <!-- Link to external JavaScript file -->
   <script src="app.js"></script>
 </body>
 </html>
